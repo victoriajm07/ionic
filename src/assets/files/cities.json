@@ -1,0 +1,16 @@
+{
+  "data": [
+      {
+        "name": "Teide",
+        "image": "teide.jpg"
+      },
+      {
+        "name": "Masca",
+        "image": "masca.jpg"
+      },
+      {
+        "name": "Puerto de la Cruz",
+        "image": "puerto-cruz.jpg"
+      }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "data": [
+      {
+        "name": "Pikachu - Pokemon Star",
+        "state": "Know more about it !!",
+        "description": "Ataque rayo",
+        "image": "https://www.pngarts.com/files/3/Pokemon-Pikachu-Transparent-Background-PNG.png"
+      },
+      {
+        "name": "Charmander - Pokemon",
+        "state": "Know more about it !!",
+        "description": "Lanzafuegos",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_rGeHJhrVrPWcvTh2R-_PHFJFNx6PZOy0SQ&usqp=CAU"
+      },
+      {
+        "name": "Bulbasaur - Pokemon",
+        "state": "Know more about it !!",
+        "description": "Látigo cepa",
+        "image": "https://www.pngitem.com/pimgs/m/130-1306788_bulbasaur-pokemon-png-transparent-png.png"
+      }
+  ]
+}

@@ -5,9 +5,28 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  
-  <div class="container">
-    <!-- Botón mediante routerLink-->
-    <button ion-button [routerLink]="['/customers']" class="btn">Ir a Customers</button>
-  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto2</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto3</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto4</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!--<div class="container">
+     Botón mediante routerLink-->
+    <!-- <button ion-button [routerLink]="['/customers']" class="btn">Ir a Customers</button>
+  </div> -->
 </ion-content>
