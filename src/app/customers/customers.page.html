@@ -2,13 +2,22 @@
   <ion-toolbar color="mycolor">
     <ion-title>customers</ion-title>
   </ion-toolbar>
+
+  <ion-toolbar color="mycolor">
+    <ion-searchbar placeholder="Buscar" animated (ionChange)="searchCustomer($event)"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <!-- Botón mediante typescript-->
-<ion-content [fullscreen]="true">
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      refreshingSpinner="bubbles"
+    ></ion-refresher-content>
+  </ion-refresher>
 
   <ion-list *ngIf="permission">
-    <ion-item *ngFor="let user of users"> <!--detailattributegivethearrowtoitem-->
+    <ion-item *ngFor="let user of searchedUser"> <!--detailattributegivethearrowtoitem-->
       <ion-avatar slot="start"> <!--slot="start"attributepositionstheavatartostart-->
         <img src="{{user.image}}">
       </ion-avatar>
